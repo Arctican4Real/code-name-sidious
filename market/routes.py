@@ -18,9 +18,9 @@ import googlemaps
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '%f43A9Uo4'
+app.config['MYSQL_PASSWORD'] = '%'
 app.config['MYSQL_DB'] = 'weather_db'
-app.config['SECRET_KEY'] = '422434344re5ttrhttyyty'
+app.config['SECRET_KEY'] = ''
 
 mysql = MySQL(app)
 @app.route('/')
